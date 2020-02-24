@@ -20,7 +20,6 @@ public:
     }
 
     //It's worth noting that we have to keep the empty included functions in order to use the JUCE framework. 
-    //Quit panicking. It's the way stuff works. 
 
     void prepareToPlay (int, double) override {}
     void releaseResources() override          {}
